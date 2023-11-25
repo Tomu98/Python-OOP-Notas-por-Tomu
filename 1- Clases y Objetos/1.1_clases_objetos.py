@@ -1,16 +1,12 @@
 # Clases
-
 # En POO, una clase es una plantilla o un plano para crear objetos.
 # Los objetos son instancias de una clase, y la clase define las propiedades (atributos) y los comportamientos (métodos) que los objetos de esa clase tendrán.
 # Las clases permiten organizar y estructurar el código de manera más modular y reutilizable.
-
-
-# "class"
 # Para crear una clase se utiliza "class" seguido del nombre de la clase.
 # Para nombrar las clases se utiliza la convención "Pascal Case".
 # El contenido de la clase está indentado y puede incluir atributos y métodos.
-# La sintaxis para definir una clase es la siguiente:
 
+# La sintaxis para definir una clase es la siguiente:
 class MiClase:  # Aquí estamos definiendo una nueva clase llamada "MiClase".
     def __init__(self, parametro1, parametro2):
         self.atributo1 = parametro1  # Atributo 1
@@ -23,6 +19,7 @@ class MiClase:  # Aquí estamos definiendo una nueva clase llamada "MiClase".
     def metodo2(self):   # Método 2
         # Código del método 2
         pass
+
 
 
 # Objetos
@@ -59,6 +56,7 @@ print(persona1.nombre)   # Accediendo al atributo nombre de persona1
 persona1.saludar()       # Llamando al método saludar() en persona1
 
 
+
 # "__init__"
 # Es un método "constructor" especial en Python que se llama automáticamente cuando creas un nuevo objeto (instancia) de una clase.
 # Su objetivo principal es inicializar los atributos del objeto con valores específicos cuando se crea.
@@ -66,6 +64,8 @@ persona1.saludar()       # Llamando al método saludar() en persona1
 # Imagina que estás construyendo una casa.
 # El constructor "__init__" es como el momento en el que se coloca la primera piedra y se establece el diseño inicial de la casa.
 # En este momento, puedes asignar valores iniciales a las características de la casa, como el número de habitaciones, el color de las paredes, etc.
+
+# Ejemplo:
 class InitCasa:
     def __init__(self, habitaciones, color_paredes):
         self.habitaciones = habitaciones
@@ -78,11 +78,13 @@ print(mi_casa.habitaciones)   # Imprime 3
 # En este caso, "mi_casa" es un objeto (instancia) de la clase "InitCasa", y los valores iniciales de "habitaciones" y "color_paredes" se establecen en "3" y "azul", gracias al constructor "__init__".
 
 
+
 # "Self"
 # Se refiere al primer parámetro de un método de una clase, y se utiliza para hacer referencia a la instancia actual de la clase.
 # Cuando defines métodos en una clase, generalmente el primer parámetro que reciben es self.
 # Por ejemplo, en el método "__init__" de una clase (el constructor), "self" se refiere al objeto que se está creando.
 # Permite diferenciar entre las variables locales y los atributos del objeto (que existen durante toda la vida del objeto).
+
 # Ejemplo:
 class Self:
     def __init__(self, valor):
@@ -96,7 +98,6 @@ print(objeto.obtener_valor())  # Imprime 42
 
 # En este ejemplo, "self" se utiliza dentro de los métodos "__init__" y "obtener_valor" para acceder a los atributos del objeto actual (self.valor) y realizar operaciones en él.
 # Cuando llamas a un método en una instancia de una clase, Python automáticamente pasa el objeto en sí como el primer argumento (self), lo que te permite acceder y modificar sus atributos.
-
 
 # Ejemplo de una fabrica de celulares:
 class Celular:
