@@ -5,6 +5,7 @@
 # Estos métodos permiten que las clases definan comportamientos específicos para ciertas operaciones y acciones, lo que hace que las clases sean más flexibles y puedan interactuar con los operadores y funciones incorporados de Python de una manera personalizada.
 # Puedes elegir los métodos que mejor se adapten a tus necesidades al diseñar tus clases personalizadas.
 
+
 # Algunos de estos métodos son:
 
 # __init__(self, ...):
