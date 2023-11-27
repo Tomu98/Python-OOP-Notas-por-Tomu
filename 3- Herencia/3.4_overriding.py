@@ -1,11 +1,11 @@
-# --- SOBREESCRITURA DE MÉTODOS ---
-
+# SOBREESCRITURA DE MÉTODOS
 # También conocido como "Overriding".
 # Permite a una clase hija (o subclase) proporcionar una implementación específica de un método que ya está definido en su clase padre (o superclase).
 # Esto permite personalizar el comportamiento de un método heredado en la clase hija sin modificar la definición original en la superclase.
 
 # En la subclase, la sobreescritura de métodos se realiza definiendo un método con el mismo nombre que el de la superclase.
 # Cuando se llama al método en un objeto de la subclase, Python ejecutará la versión del método definida en la subclase en lugar de la versión de la superclase.
+
 # Ejemplo:
 class Animal:
     def hablar(self):
@@ -24,10 +24,11 @@ mi_perro.hablar()         # Imprime "El perro ladra."
 # Como puedes ver, cuando llamamos al método hablar() en un objeto de la clase Perro, Python ejecuta la versión de la subclase (Perro), que imprime "El perro ladra".
 # Esto demuestra la sobreescritura exitosa del método.
 
-# Ventajas de la sobreescritura de métodos:
-# - Permite personalizar el comportamiento de los métodos heredados en las subclases.
-# - Facilita la implementación de la herencia, ya que las subclases pueden adaptar el comportamiento de los métodos a sus necesidades específicas sin modificar la superclase.
-# - Ayuda a mantener un código más limpio y organizado, ya que evita la duplicación innecesaria de código.
+# Ventajas de la sobreescritura de métodos es que permite personalizar el comportamiento de los métodos heredados en las subclases.
+# Tambien facilita la implementación de la herencia, ya que las subclases pueden adaptar el comportamiento de los métodos a sus necesidades específicas sin modificar la superclase.
+# Y ayuda a mantener un código más limpio y organizado, ya que evita la duplicación innecesaria de código.
+
+
 
 # Ejemplo en vehiculos:
 class Vehiculo:
@@ -44,7 +45,6 @@ class Motocicleta(Vehiculo):
 
 mi_coche = Coche()
 mi_motocicleta = Motocicleta()
-
 
 mi_coche.encender_motor()        # Imprime "El coche ha encendido el motor y está listo para conducir."
 mi_motocicleta.encender_motor()  # Imprime "La motocicleta ha encendido el motor y está lista para arrancar."
