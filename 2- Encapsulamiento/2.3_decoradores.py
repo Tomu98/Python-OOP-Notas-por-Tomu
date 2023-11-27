@@ -1,14 +1,10 @@
-# --- DECORADORES ---
-
-# ¿Qué son los decoradores?.
+# DECORADORES
 # Un decorador es una función que toma otra función y extiende o modifica su comportamiento sin cambiar su código fuente.
 # En esencia, un decorador permite "envolver" una función con otra función para agregar funcionalidad adicional.
-
-# ¿Por qué usar decoradores?.
-# Reutilización de código: Los decoradores permiten agregar funcionalidad común a múltiples funciones sin duplicar código.
-# Separación de preocupaciones: Facilitan la organización del código al separar las preocupaciones específicas de una función.
-# Legibilidad: Hacen que el código sea más legible al separar la funcionalidad adicional de la lógica principal de la función.
-# Modularidad: Facilitan la adición y eliminación de funcionalidad sin afectar el código existente.
+# Los decoradores permiten agregar funcionalidad común a múltiples funciones sin duplicar código, permitiendo una mayor reutilización.
+# Facilitan la organización del código al separar las preocupaciones específicas de una función, como la lógica principal y la funcionalidad adicional.
+# Hacen que el código sea más legible al separar la funcionalidad adicional de la lógica principal de la función, lo que facilita la comprensión de lo que hace la función.
+# Facilitan la adición y eliminación de funcionalidad sin afectar el código existente, ya que la funcionalidad adicional se agrega a través de decoradores, no en la función en sí.
 
 
 # Funciones anidadas.
@@ -32,10 +28,10 @@ nueva = crear_funcion()
 print(nueva())  # Output: ¡Hola, soy una función!
 
 
-# Sintaxis de los Decoradores
+# Sintaxis de los Decoradores:
 # Un decorador es una función que toma una función como argumento y devuelve otra función.
 # Se define utilizando la sintaxis "@nombre_del_decorador" justo encima de la función que se va a decorar.
-# Definición del decorador
+# Ejemplo:
 def decorador(funcion_a_decorar):
     def funcion_decorada():
         print("Antes de llamar a la función")
