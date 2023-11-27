@@ -1,5 +1,4 @@
-# --- DECORADORES INTEGRADOS ---
-
+# DECORADORES INTEGRADOS
 # Python proporciona algunos decoradores integrados que te permiten controlar el acceso y la manipulación de atributos de una clase en el contexto de la POO.
 # Estos decoradores son útiles para mantener la encapsulación de datos y proporcionar una interfaz controlada para acceder y modificar atributos de un objeto.
 
@@ -98,8 +97,8 @@ class Matematicas:
 
 resultado_suma = Matematicas.suma(5, 3)
 resultado_resta = Matematicas.resta(10, 4)
-print("Suma:", resultado_suma)    # Salida: Suma: 8
-print("Resta:", resultado_resta)  # Salida: Resta: 6
+print("Suma:", resultado_suma)    # Salida suma: 8
+print("Resta:", resultado_resta)  # Salida resta: 6
 
 # En este ejemplo, hemos creado una clase Matematicas con dos métodos estáticos: "suma" y "resta".
 # Puedes llamar a estos métodos directamente en la clase sin crear una instancia de "Matematicas"
@@ -135,6 +134,6 @@ print("Número de instancias creadas:", contador)  # Salida: Número de instanci
 # En este ejemplo, hemos creado una clase "MiClaseM" con un método de clase llamado "obtener_contador".
 # Este método puede acceder al atributo de clase "contador", que lleva el registro del número de instancias de la clase creadas.
 # Hemos creado dos instancias de "MiClaseM" y luego llamado al método de clase "obtener_contador" para obtener el número total de instancias creadas.
+# Los métodos de clase son útiles cuando quieres realizar operaciones que están relacionadas con la clase en sí misma, en lugar de con instancias individuales de la clase.
 
-
-# Tambien estan los decoradores personalizados, que serían los decoradores hechos por el usuario (TEMA POR APRENDER)}
+# Tambien estan los decoradores personalizados, que serían los decoradores hechos por el usuario (TEMA AUN NO ESTUDIADO)}
