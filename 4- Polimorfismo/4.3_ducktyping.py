@@ -1,9 +1,9 @@
-# --- DUCKTYPING ---
-
-# "Duck Typing" es un concepto en programación que se relaciona con el polimorfismo y la flexibilidad de los lenguajes de programación dinámicos, como Python.
+# DUCKTYPING
+# "Duck Typing" es un concepto en programación que se relaciona con el polimorfismo y la flexibilidad de los lenguajes de programación dinámicos.
 # Es un concepto en programación que se refiere a la forma en que se determina el tipo o la clase de un objeto en tiempo de ejecución en lugar de en tiempo de compilación.
-# La idea fundamental del Duck Typing es que lo que importa no es la clase o el tipo específico de un objeto, sino si el objeto puede realizar ciertas operaciones o métodos.
+# La idea fundamental del "Duck Typing" es que lo que importa no es la clase o el tipo específico de un objeto, sino si el objeto puede realizar ciertas operaciones o métodos.
 # Se basa en el principio "Si parece un pato, nada como un pato y grazna como un pato, entonces probablemente es un pato".
+
 
 # Principio de Duck Typing
 # El enfoque se centra en el comportamiento de un objeto en lugar de su tipo declarado.
@@ -37,10 +37,10 @@ hacer_un_sonido(avion) # Imprime "Zum zum"
 
 
 # Ventajas de Duck Typing
-# - Flexibilidad: Permite que los objetos se utilicen en contextos diversos sin restricciones estrictas de tipo.
-# - Código más genérico: Facilita la escritura de código genérico y reutilizable, ya que se basa en el comportamiento en lugar del tipo concreto.
-# - Simplificación: Reduce la necesidad de conversiones explícitas de tipos y verifica automáticamente si un objeto es válido para una operación.
+# Una de las ventajas es que permite que los objetos se utilicen en contextos diversos sin restricciones estrictas de tipo.
+# También facilita la escritura de código genérico y reutilizable, ya que se basa en el comportamiento en lugar del tipo concreto.
+# Y otra ventaja es que reduce la necesidad de conversiones explícitas de tipos y verifica automáticamente si un objeto es válido para una operación.
 
 # Desventajas de Duck Typing
-# - Potencial para errores en tiempo de ejecución: Debido a que no se realiza una verificación de tipos estática, los errores relacionados con la falta de un método pueden ocurrir en tiempo de ejecución.
-# - Menos documentación explícita: Puede ser menos obvio entender qué métodos debe tener un objeto basándose únicamente en su uso en lugar de una declaración de tipo explícita.
+# Una desventaja es el P¿potencial para los errores en tiempo de ejecución, debido a que no se realiza una verificación de tipos estática, los errores relacionados con la falta de un método pueden ocurrir en tiempo de ejecución.
+# Y otra es que puede ser menos obvio entender qué métodos debe tener un objeto basándose únicamente en su uso en lugar de una declaración de tipo explícita.
