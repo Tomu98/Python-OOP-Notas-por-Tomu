@@ -1,4 +1,4 @@
-# --- METODOS ESPECIALES ---
+# METODOS ESPECIALES
 
 # También conocidos como "métodos mágicos" o "métodos dunder" (del inglés, "double underscore methods").
 # Son métodos especiales que tienen nombres que comienzan y terminan con doble guión bajo, por ejemplo, "__init__", "__str__", "__add__", etc.
