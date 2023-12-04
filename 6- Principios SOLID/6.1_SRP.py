@@ -1,8 +1,7 @@
 # SRP - Single Responsibility Principle
 
 # Principio de Responsabilidad Única.
-# Este principio establece que una clase debe tener una sola razón para cambiar.
-# En otras palabras, una clase debe tener una única responsabilidad en el sistema.
+# Este principio establece que una clase debe tener una sola razón para cambiar, en otras palabras, una clase debe tener una única responsabilidad en el sistema.
 # Esto significa que una clase debe hacer solo una cosa y hacerlo bien.
 # Si una clase tiene más de una responsabilidad, se vuelve más difícil de mantener y entender.
 # Dividir la funcionalidad en clases más pequeñas y especializadas ayuda a mejorar la modularidad y la facilidad de mantenimiento.
