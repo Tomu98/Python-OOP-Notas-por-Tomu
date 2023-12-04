@@ -1,7 +1,7 @@
-# --- ABSTRACCION ---
+# ABSTRACCION
 
-# La abstracción es un principio clave que se utiliza para modelar objetos del mundo real en un programa informático de una manera simplificada y estructurada.
-# La abstracción es el proceso de simplificar la complejidad de un objeto del mundo real al identificar las características esenciales y representarlas en un modelo que puede ser utilizado en un programa de software.
+# Es un principio clave que se utiliza para modelar objetos del mundo real en un programa informático de una manera simplificada y estructurada.
+# Simplifíca la complejidad de un objeto del mundo real al identificar las características esenciales y representarlas en un modelo que puede ser utilizado en un programa de software.
 # En POO, la abstracción se logra mediante la creación de clases y objetos.
 
 # Elementos de la Abstracción:
