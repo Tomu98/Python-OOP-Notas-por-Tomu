@@ -1,4 +1,4 @@
-# --- SOBRECARGA DE OPERADORES ---
+# SOBRECARGA DE OPERADORES
 
 # La sobrecarga de operadores ("operator overloading" en inglés) es una característica de POO que permite a las clases definir cómo deben comportarse los operadores estándar cuando se aplican a objetos de esa clase.
 # En otras palabras, te permite darle a tus objetos el comportamiento que consideres apropiado cuando se utilizan operadores comunes como +, -, *, /, ==, entre otros.
