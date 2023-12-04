@@ -1,4 +1,4 @@
-# --- CLASES ABSTRACTAS ---
+# CLASES ABSTRACTAS
 
 # Una clase abstracta es una clase que no puede ser instanciada directamente, es decir, no puedes crear objetos a partir de ella.
 # En su lugar, se utiliza como una plantilla para definir otras clases.
